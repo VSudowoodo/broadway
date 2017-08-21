@@ -22,7 +22,7 @@ img {
   margin:auto;
 }
 
-#header {
+#header, #info h2 {
   background-image: url("../images/the-flatiron-building.png");
   background-size: cover;
 }
@@ -45,10 +45,6 @@ img {
 
 #process h3, #info h2, #info h3 {
   font-size: 23px;
-}
-
-#info h2 {
-  background-image: url("../images/the-flatiron-building.png");
 }
 
 #footer {
