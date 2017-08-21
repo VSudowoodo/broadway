@@ -1,6 +1,6 @@
 body {
   background-color: #fff;
-  font-family: Helvetica;
+  font-family: Helvetica, sans-serif;;
   text-align: center;
 }
 
@@ -14,7 +14,6 @@ ul.nav-links li {
 
 ul.nav-links li a {
   font-size: 18px;
-  color: #fff;
 }
 
 img {
@@ -30,24 +29,38 @@ img {
 
 #header h1 {
   font-size: 70px;
-  font-weight: bold;
-  color: #fff;
 }
 
-#process {
+/*#process {
   color: #000;
-}
+}*/
 
 #process h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
-#process h3 {
-  font-size: 23px;
-  font-weight: bold;
-}
-
-#process p {
+#process p, #info p {
   font-size: 14px;
+}
+
+#process h3, #info h2, #info h3 {
+  font-size: 23px;
+}
+
+#info h2 {
+  background-image: url("../images/the-flatiron-building.png");
+}
+
+#footer {
+  background-color: dimgray;
+  font-size: 11px;
+  text-align: left;
+}
+
+ul.nav-links li a, #header h1, #info h2, #footer, #footer a {
+  color: #fff;
+}
+
+#header h1, #process h2, #process h3, #info h2, #info h3 {
+  font-weight: bold;
 }
